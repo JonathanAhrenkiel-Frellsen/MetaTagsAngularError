@@ -22,9 +22,9 @@ export class ProfileviewerComponent implements OnInit {
 
     this.db.firestore.collection('users').doc(this.customerId).get().then((userRef) => {
       this.seo.generateTags({
-        title: userRef.data().displayName,
-        description: userRef.data().about,
-        image: userRef.data().photoURL,
+        title: "title test",
+        description: "description test",
+        image: "image test",
       })
     })
   }

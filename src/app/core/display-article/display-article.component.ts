@@ -25,9 +25,9 @@ export class DisplayArticleComponent implements OnInit {
 
     this.db.firestore.collection('articles').doc(this.articleId).get().then((articleRef) => {
       this.seo.generateTags({
-        title: articleRef.data().title,
-        description: articleRef.data().author,
-        image: articleRef.data().imagedir,
+        title: "title test",
+        description: "description test",
+        image: "image test",
       })
     })
 
