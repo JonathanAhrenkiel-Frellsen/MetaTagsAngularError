@@ -1,0 +1,19 @@
+{
+  "hosting": [
+    {
+      "target": "thecapital",
+      "public": "dist/thecapital",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ]
+    }
+  ]
+}

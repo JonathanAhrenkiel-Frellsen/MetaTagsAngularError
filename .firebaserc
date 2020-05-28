@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "altcoin-test": {
+      "hosting": {
+        "thecapital": [
+          "altcoin-test"
+        ]
+      }
+    }
+  }
+}
